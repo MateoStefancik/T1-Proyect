@@ -6,6 +6,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
 a{
     text-decoration: none;
 }
@@ -72,11 +77,6 @@ a{
             .social a :hover{
                 color: #343434;
             }
-        .texto-principal{
-            height: 580px;
-            display: flex;
-            align-items: center;
-        }
         h1{
             font-family: 'Lora', serif;
             font-size: 21px;
@@ -103,7 +103,7 @@ a{
     }
     h5{
         margin: 10px;
-        padding-left: 280px;
+        padding-left: 240px;
         font-size: 13px;
         color: #fff;
     }
@@ -126,7 +126,7 @@ a{
         font-size: 13px;
         padding: 10px;
         margin: 10px;
-        margin-left: 290px;
+        margin-left: 250px;
         display: inline-block;
     }
     .articulos__article a:hover{
@@ -149,7 +149,7 @@ a{
         
     }
     .aside img{
-        width: 100%;
+        width: 88%;
         border-radius: 1%;
     }
     h4{
@@ -175,29 +175,6 @@ a{
     padding: 0 10px;
     letter-spacing: 2px;
 }
-@media all and (max-width: 800px){
-    .section{
-        flex-direction: column;
-    }
-    .menu{
-        flex-direction: column;
-        height: auto;
-    }
-    .aside{
-        display: flex;
-        justify-content: center;
-    }
-}
-@media all and (max-widht: 600px){
-    .articulos{
-        flex-direction: column;
-    }
-}
-@media all and (max-widht: 400px){
-    .articulos{
-        flex-direction: column;
-    }
-}
 .FAQ__Letter{
     color: #fff;
     text-align: center;
@@ -206,7 +183,7 @@ a{
 }
 .FAQ{
     font-size: 12px;
-    padding-top: 30px;
+    padding-top: 37px;
     font-family: 'Lora', serif; 
 }
 .FAQ_parrafo{
